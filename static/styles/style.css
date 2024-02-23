@@ -227,3 +227,235 @@ form label {
     font-style: normal;
     font-size: 25px;
 }
+
+/* Responsividade: começando com Mobile S 320px */
+@media (max-width: 320px) {
+
+    body { overflow-x: hidden; }
+
+    header img {
+        width: 70%;
+    }
+
+    main section {
+        margin: 0;
+    }
+
+    main section img {
+        position: relative;
+        right: 40px;
+    }
+
+    .socials {
+        flex-direction: row;
+        margin-left: 6rem;
+    }
+
+    .contain {
+        flex-direction: column;
+    }
+
+    #github, #linkedin {
+        width: 40px;
+    }
+
+    .right-side {
+        position: relative;
+        right: 85px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+
+    .pixelify-sans-h2, .contain2 p {
+        font-size: 20px;
+        width: 50%;
+      }
+
+      .contain2 p {
+        font-size: 15px;
+        margin-left: 1.5rem;
+        width: 200px;
+    }
+
+    .carrossel {
+        width: 230px;
+        justify-content: center;
+        margin-left: 0.3rem;
+    }
+    
+    .carrossel img {
+        width: 30px;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 5px;
+    }
+    
+    .contain2 h3 {
+        font-size: 30px;
+        text-align: start;
+        margin-left: 5.1rem;
+        margin-top: 2rem;
+    }
+    
+    .carrossel-title h3, footer h3 {
+        font-size: 30px;
+        margin-top: 1rem;
+    }
+
+    .carrossel-title h3 {
+        text-align: start;
+        margin-left: 2.5rem;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .projetos h3 {
+        margin-top: 3rem;
+        text-align: start;
+        margin-left: 3.4rem;
+        font-size: 30px;
+    }
+    
+    .projetos p {
+       display: none;
+    }
+    
+    .projects-grade {
+        margin-left: 1.5rem;
+        width: 200px;
+    }
+
+    
+    .projects-grade .items img{
+        width: 70px;
+    }
+    
+    .projects-grade .items2 img {
+        width: 70px;
+    }
+
+    footer {
+        align-items: start;
+        margin-left: 1.5rem;
+    }
+    
+    form {
+        margin-bottom:50px;
+    }
+    
+    
+    form input, form textarea {
+        outline: unset;
+        padding: 20px;
+        width: 200px;
+        border: none;
+    }
+    
+    form input [type="submit"] {
+        width: 100px;
+    }
+
+    
+    form label {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+}
+
+/* Mobile M 375px */
+    @media (max-width: 375px) {
+        body { overflow-x: hidden; }
+
+        header img {
+            width: 80%;
+            margin-left: 1rem;
+        }
+
+    main section img {
+        position: relative;
+        right: 25px;
+    }
+
+    .right-side {
+        position: relative;
+        right: 40px;
+    }
+
+    .contain2 p{
+        width: 300px;
+    }
+
+        .contain2 h3 {
+        font-size: 30px;
+        text-align: start;
+        margin-left: 9rem;
+        margin-top: 2rem;
+    }
+    
+    .carrossel {
+        width: 360px;
+        justify-content: center;
+    }
+
+    .carrossel-title h3, footer h3 {
+        font-size: 30px;
+        margin-top: 1rem;
+    }
+
+    .carrossel-title h3 {
+        text-align: start;
+        margin-left: 6rem;
+    }
+
+    .projetos h3 {
+        font-size: 30px;
+    }
+
+    .projetos p {
+        display: none;
+     }
+
+    .projects-grade {
+        margin-left: 1.8rem;
+        width: 320px;
+        margin-bottom: 5rem;
+    }
+
+    .projects-grade .items img{
+        width: 130px;
+    }
+    
+    .projects-grade .items2 img {
+        width: 130px;
+    }
+}
+
+/* Mobile L 425px*/
+@media (max-width: 425px) {
+    .contain2 p {
+        width: 80%;
+    }
+
+    .projects-grade {
+        width: 90%;
+    }
+
+    .projects-grade .items img{
+        width: 50px;
+    }
+    
+    .projects-grade .items2 img {
+        width: 50px;
+    }
+}
+}
