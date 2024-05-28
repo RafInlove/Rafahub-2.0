@@ -373,7 +373,7 @@ form label {
 }
 
 /* Mobile M 375px */
-    @media (max-width: 375px) {
+    @media (max-width: 380px) {
         body { overflow-x: hidden; }
 
         header img {
@@ -426,17 +426,19 @@ form label {
      }
 
     .projects-grade {
-        margin-left: 1.8rem;
-        width: 320px;
+        margin-left: 1rem;
+        width: 200px;
+        padding: 0;
         margin-bottom: 5rem;
+        justify-content: center;
     }
 
-    .projects-grade .items img{
-        width: 130px;
+    .projects-grade .items #hdchost, #database{
+        width: 90px;
     }
     
-    .projects-grade .items2 img {
-        width: 130px;
+    .projects-grade .items2 #tabuada, #qr {
+        width: 90px;
     }
 }
 
