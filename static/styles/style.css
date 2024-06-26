@@ -228,6 +228,10 @@ form label {
     font-size: 25px;
 }
 
+#mensagem {
+    resize: none;
+}
+
 /* Responsividade: começando com Mobile S 320px */
 @media (max-width: 320px) {
 
